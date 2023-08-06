@@ -31,3 +31,7 @@ The Moore sequence detector is implemented using two always blocks:
 2. The second always block (`always @(*)`) is a combinational block that determines the next state (`state_next`) based on the current state (`state_reg`) and the input `x`.
 
 The output `y` is set to '1' when the current state is `s3`.
+
+## Simulation
+
+There exists a single testbench code for evaluating this module, along with another module[Mealy Sequence Detector](https://github.com/OmarMongy/Mealy_Seq_Detector/tree/main)
